@@ -1,0 +1,99 @@
+#calendar
+{
+	border: 1px solid black;
+	margin: auto;
+	margin-top: 70px;
+}
+
+#calendar > tr > td
+{
+	width: 90px;
+	height: 90px;
+	border: 3px solid #444444;
+	text-align: center;
+	font-size: 40px;
+	cursor: pointer;
+}
+
+#calendar > tr > td.today
+{
+	border: 4px solid yellowgreen;
+	border-radius: 15%;
+}
+
+#calendar td.selected
+{
+	border: 3px solid darkorange;
+	color: darkorange;
+}
+
+#tabPlace
+{
+	width: 70%;
+	margin: auto;
+}
+
+.dateBox
+{
+	position: absolute;
+	margin-left: 20px;
+}
+
+.yearBtn, .monthBtn
+{
+	height: 30px;
+	width: 50px;
+	text-align: center;
+	display: inline-block;
+
+}
+
+.day6, .day7
+{
+	color: red;
+}
+
+.btn
+{
+	border: 1px solid black;
+	border-radius: 5px;
+	background-color: white;
+	cursor: pointer;
+}
+
+.rightBtn
+{
+	margin-left: 20px;
+}
+
+#eventTextForm
+{
+	position: absolute;
+	margin-top: 150px;
+	margin-left: 20px;
+}
+
+/*	Попытка сделать модальное окно*/
+.background
+{
+	position: absolute;
+	width: 99%;
+	height: 98%;
+	opacity: 0.9;
+}
+
+#modbackground
+{
+	background-color: white;
+}
+
+#modwindow
+{
+	background-color: orange;
+	width: 200px;
+	height: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 300px;
+	border-radius: 10%;
+}

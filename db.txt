@@ -1,0 +1,7 @@
+http://events.univer.ru/
+
+DB:
+Логин: events.univer.ru
+Пароль: 1
+
+Логин и пароль для FileZilla такие же
